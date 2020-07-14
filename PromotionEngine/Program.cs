@@ -8,9 +8,6 @@ namespace PromotionEngine
     {
         static void Main(string[] args)
         {
-
-            //create list of promotions
-            //we need to add information about Product's count
             Dictionary<String, int> d1 = new Dictionary<String, int>();
             d1.Add("A", 3);
             Dictionary<String, int> d2 = new Dictionary<String, int>();
@@ -45,7 +42,7 @@ namespace PromotionEngine
 
         }
 
-        // Define other methods and classes here
+       
         public class Product
         {
 
